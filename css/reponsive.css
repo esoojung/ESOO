@@ -1,0 +1,350 @@
+@charset "urf-8";
+
+
+@media screen and (max-width:1830px) {
+
+
+    .big-name {
+        margin-left: 45%;
+    }
+    
+
+    #graphic {
+        margin: 18rem 0 12rem 0;
+    }
+
+    .big {
+        font-size: 4rem;
+    }
+
+    .footer-txt {
+        margin: 25vh auto 10vh;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    html {
+        font-size: 13px;
+    }
+
+    header .container {
+        width: 1440px;
+    }
+
+    #about .container {
+        width: 1440px;
+    }
+
+    #work .container {
+        width: 1440px;
+    }
+
+    #video-title .container {
+        width: 1440px;
+    }
+
+    #graphic .container {
+        width: 1440px;
+    }
+
+    #branding .container {
+        width: 1440px;
+    }
+
+    #contact .container {
+        width: 1440px;
+       
+    }
+
+    .big-name {
+        width: 50%;
+        margin-left: 35%;
+    }
+
+
+    #graphic {
+        margin: 20rem 0 12rem 0;
+    }
+
+
+    .swiper-slide .slide-content h3:first-child {
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .button-wrap button {
+        margin-bottom: 10rem;
+
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header .container {
+        width: 1024px;
+    }
+
+    #about .container {
+        width: 1024px;
+    }
+
+    .about-profile h1 {
+        font-size: 3rem;
+    }
+
+    #about .container .about-bottom {
+        margin: 20rem 6rem 0rem 6rem;
+    }
+
+
+
+    #work .container {
+        width: 1024px;
+    }
+
+    .work-content .arrow {
+        width: 15px;
+        height: 15px;
+    }
+
+    #video-title .container {
+          width: 1024px;
+    }
+
+    #graphic .container {
+         width: 1024px;
+    }
+
+    #branding .container {
+         width: 1024px;
+    }
+
+    #contact .container {
+         width: 1024px;
+    }
+
+    #video-title .video-left .project {
+      width: 50%;
+      font-size: 3rem;
+      margin-top: 0;      
+    }
+
+    .video-set {
+        width: 40%;
+        height: 70vh;
+    }
+
+    #video-title .video-left div:nth-child(2) {
+        width: 48%;
+        padding-top: 8rem;
+    }
+
+    .popup-inner {
+        width: 980px;
+    }
+
+    #video-title .container .popup .number {
+        padding: 10rem 0;
+    }
+
+    #video-title .container .popup .txt{
+        margin-left: -8rem;
+    }
+
+    #video-title .container .popup .txt>p {
+        width: 90%;
+    }
+
+    #video-title .container .popup .txt .tool p {
+        padding: 0.4rem 2.8rem;
+        margin-right: 0.5rem;
+
+    }
+
+
+    #video-title .container .popup button {
+        width: 5rem;
+        height: 2.5rem;
+        right: 8rem; bottom: -22rem;
+    }
+
+    #graphic .graphic-top p {
+        padding: 0 15rem 0 35rem;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 768px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    header .container {
+        width: 768px;
+    }
+
+    #about .container {
+        width: 768px;
+    }
+
+    #work .container {
+        width: 768px;
+    }
+
+    #video-title .container {
+        width: 768px;
+    }
+
+    #graphic .container {
+        width: 768px;
+    }
+
+    #branding .container {
+        width: 768px;
+    }
+
+    #contact .container {
+        width: 768px;
+       
+    }
+
+    .menu {
+        width: 20%;
+    }
+
+    .big {
+        font-size: 4rem;
+    }
+
+    
+    .about-title  {
+        width: 70%;
+
+    }   
+    
+    #about .container .about-top div:nth-child(1){
+        width: 50%;
+    }
+
+    #about .container .about-top div:nth-child(3){
+        width: 40%;
+    }
+
+    
+    .about-profile img {
+    max-width: 60%;
+
+    }   
+
+    .about-profile h1 {
+        font-size: 3.4rem;
+        bottom: -4.5rem ; right: 0rem;
+    }
+
+
+
+    #about .container .about-bottom {
+        margin: 25rem 6rem 0rem 6rem;
+    }
+    
+
+    #about .about-license {
+        width: 15%;
+    }
+
+    #about .about-skill{
+        width: 40%;
+    }
+
+    .big-name {
+        font-size: 2.3rem;
+    }     
+    
+
+}
+
+
+@media screen and (max-width: 425px) {
+    html {
+        font-size: 9px;
+    }
+
+    header .container {
+        width: 425px;
+    }
+
+    #about .container {
+        width: 425px;
+    }
+
+    #work .container {
+        width: 425px;
+    }
+
+    #video-title .container {
+        width: 425px;
+    }
+
+    #graphic .container {
+        width: 425px;
+    }
+
+    #branding .container {
+        width: 425px;
+    }
+
+    #contact .container {
+        width: 425px;
+       
+    }
+
+    .port {
+        width: 50%;
+    }
+
+
+
+    .menu {
+        width: 30%;
+    }
+
+    .header-btm .big {
+        width: 70%;
+    }
+
+    .big {
+        font-size: 3.5rem;
+    }
+
+    #about .container .about-top {
+    display: block;
+    }   
+
+    #about .container .about-top div:nth-child(1) {
+    width: 100%};
+
+    .about-title  {
+        width: 100%;
+    }
+
+
+}
