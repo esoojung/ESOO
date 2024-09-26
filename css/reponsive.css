@@ -3,7 +3,6 @@
 
 @media screen and (max-width:1830px) {
 
-
     .big-name {
         margin-left: 45%;
     }
@@ -20,7 +19,6 @@
     .footer-txt {
         margin: 25vh auto 10vh;
     }
-
 
 
 }
@@ -139,20 +137,30 @@
          width: 1024px;
     }
 
+    #video-title {
+        height: 80vh;
+    }
+
     #video-title .video-left .project {
-      width: 50%;
-      font-size: 3rem;
-      margin-top: 0;      
+      width: 30%;
+      font-size: 2.7rem;
+      margin-top: 5%;      
+      letter-spacing: 3px;
+    }
+
+    #video-title .video-left {
+        margin: 3rem 10rem;
     }
 
     .video-set {
         width: 40%;
-        height: 70vh;
+        height: 50vh;
+        
     }
 
     #video-title .video-left div:nth-child(2) {
         width: 48%;
-        padding-top: 8rem;
+        padding-top: 5rem;
     }
 
     .popup-inner {
@@ -188,6 +196,19 @@
         padding: 0 15rem 0 35rem;
     }
 
+    .swiper-slide img {
+        height: 313px;
+    }
+
+    .esoo .button-next {
+        width: 40px;
+        height: 40px;
+    }
+
+    .esoo .button-prev {
+        width: 40px;
+        height: 40px;
+    }
    
 }
 
@@ -277,10 +298,64 @@
 
     .big-name {
         font-size: 2.3rem;
-    }     
+    }    
+
+    #work {
+        height: 50vh;
+    }
+
+    #video-title {
+        height: 50vh;
+    }
+
+
+    #video-title .video-left {
+        width: 70%;
+        margin: 0rem;
+    }
+
+    #video-title .video-left .project {
+        width: 100%;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    #video-title .video-left div:nth-child(2) {
+        width: 40%;
+    }
+
+
+    .video-set {
+        width: 50%;
+        height: 53%;
+    }
+
     
 
+    #video-title .container .popup {
+        width: 100%;
+        height: 50vh;
+        padding: 12vh 0;
+    }
+
+    #video-title .container .popup .number {
+        margin-left: 1rem;
+    }
+
+    #video-title .container .popup .txt .tool p {
+        padding: 0.5rem 2rem;
+    }
+
+    #video-title .container .popup button {
+        bottom: -19rem;
+        font-size: 1.2rem;
+    }
+
+
+    
 }
+
+
 
 
 @media screen and (max-width: 425px) {

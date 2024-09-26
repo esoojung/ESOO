@@ -640,6 +640,7 @@ header {
     width: 100%;
     height: 100vh;
     position: relative;
+    display: flex;
 }
 
 
@@ -783,17 +784,18 @@ header {
 
 }
 
-#video-title .container .popup {
+/* #video-title .container .popup {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     background-color: antiquewhite;
     top: 0%;
     left: -100%;
     opacity: 0;
     padding: 20vh 0;
-    transition: all .5s;
+    transition:  all .7s ease-in-out;
     color: transparent;
+    display: none;
 }
 
 #video-title .container .popup.on {
@@ -803,6 +805,32 @@ header {
     color: #000;
     background-color: antiquewhite;
     z-index: 999;
+    display: block;
+} */
+
+
+#video-title .container .popup {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: antiquewhite;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding: 20vh 0;
+    visibility: hidden; 
+    transition: opacity .5s ease-in-out, visibility 0s .5s;
+    color: transparent;
+
+}
+
+#video-title .container .popup.on {
+    opacity: 1;
+    color: #000;
+    background-color: antiquewhite;
+    z-index: 999;
+    visibility: visible; 
+    transition: opacity .5s ease-in-out, visibility 0s 0s;
 }
 
 #video-title .container .popup-inner {
@@ -990,6 +1018,7 @@ header {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -1003,6 +1032,7 @@ header {
 
 .swiper-slide .slide-content {
     width: 35%;
+    height: 29rem;
     border-left: 1px solid black;
     margin-left: 2rem;
 }
