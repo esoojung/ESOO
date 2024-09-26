@@ -223,6 +223,10 @@
         width: 768px;
     }
 
+    #about {
+        height: 80vh;
+    }
+
     #about .container {
         width: 768px;
     }
@@ -350,6 +354,76 @@
         bottom: -19rem;
         font-size: 1.2rem;
     }
+
+    #graphic .graphic-top p {
+        font-size: 1.3rem;
+        padding: 0 5rem 0 35rem;
+    }
+
+  
+
+    .swiper {
+        width: 90%;
+    }
+    
+
+    .swiper-slide {
+        display: block;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+    }
+
+    .swiper-css-mode>.swiper-wrapper>.swiper-slide {
+        height: 760px;
+    }
+
+    .swiper-slide .slide-content {
+        width: 100%;
+        border: none;
+        margin-top: 2rem;
+        margin-left: 0;
+    
+    }
+
+    .swiper-slide .slide-content p {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .esoo .button-next {
+        top: 17%;
+        right: 0%;
+        
+    }
+
+    .esoo .button-prev {
+        top: 17%;
+        left: 0%;
+        
+    }
+
+    .swiper-slide .slide-content h3:first-child {   width: 3.3rem;
+        height: 3.3rem;
+        line-height: 3.3rem;
+        font-size: 1.6rem;
+
+
+    }
+
+    .swiper-slide .slide-content p {
+        font-size: 1.5rem;
+    }
+
+    
+    
+    
+   
+
+    
+
+   
 
 
     
